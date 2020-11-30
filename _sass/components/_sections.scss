@@ -759,16 +759,22 @@ section.bg-wave {
 .itokens-page {
   .grid {
     display: grid;
-    grid-template-columns: repeat(14, 1fr);
+    grid-template-columns: repeat(16, 1fr);
     grid-column-gap: 5px;
     @media screen and(max-width: 767px) {
-      grid-template-columns: repeat(5, 1fr) !important;
+      grid-template-columns: repeat(4, 1fr) !important;
     }
     .itoken-wrapper {
       display: flex;
-      width: 45px;
-      height: 45px;
       justify-self: center;
+      @media screen and(min-width: 768px) {
+        width: 60px;
+        height: 60px;
+      }
+      @media screen and(max-width: 767px) {
+        width: 45px;
+        height: 45px;
+      }
     }
   }
 }

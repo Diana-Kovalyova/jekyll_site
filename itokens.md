@@ -27,6 +27,7 @@ h1title: What are iTokens?
           <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iUNI.svg %}</div></div></div>
           <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iCOMP.svg %}</div></div></div>
           <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iLRC.svg %}</div></div></div>
+          <div class="itoken-wrapper"><div class="itoken-gradient"><div class="itoken-white">{% include svg/itokens/iBNB.svg %}</div></div></div>
       </div>
     </div>
     <p>iTokens constantly accrue value and increase in price because its underlying assets are loaned out to borrowers. Two notable features of iTokens are that they compounds each second (as opposed to per block) and that their exchange rate is capable of falling if the underlying pool suffers a loss. This makes them well suited for risk management derivatives to be built on top.</p>

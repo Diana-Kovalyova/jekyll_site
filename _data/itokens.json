@@ -90,6 +90,12 @@
         "address": "0x3dA0e01472Dee3746b4D324a65D7EdFaECa9Aa4f",
         "abi": "/abi/iToken.json",
         "ticker": "iLRC"
+      },
+      {
+        "description": "BNB iToken",
+        "address": "0x88183Ec0054F40D344e40EC934D5a9E2749a61d4",
+        "abi": "/abi/iToken.json",
+        "ticker": "iBNB"
       }
     ],
     "mainnetprotocoldetails": [
